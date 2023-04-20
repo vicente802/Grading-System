@@ -1,0 +1,150 @@
+body{
+    background-color: aliceblue;
+}
+.swal-footer{
+    text-align: center;
+}
+
+.header_panel{
+    background-color: white;
+    width:14%;
+    height: 100vh;
+    margin-top: 0px;
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+}
+#table_management{
+    position: relative;
+    margin-left: -0px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+ul li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 12px;
+    margin-left: -30px;
+}
+ul{
+    display: block;
+    position: relative;
+    margin-top: 0px;
+    
+}
+.card{
+    margin-left: 100px;
+}
+.header-responsive{
+    display: none;
+    list-style: none;
+    font-size: 30px;
+    padding: 18px;
+    margin-top: 200px;
+}
+.header-responsive li:hover{
+    color:blue;
+}
+.header-responsive li{
+    margin-top: 30px;
+}
+ul li:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+#card_tally{
+    text-align: center;
+    margin-top: -10px;
+    margin-left:auto;
+}
+.table{
+    overflow: auto;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    width: 50%;
+}
+#open_manage{
+    height: fit-content;
+    overflow: hidden;
+}
+@media screen and (max-width:700px) {
+    .header-responsive{
+        display: block;
+    }
+img{
+    display: none;
+}    
+ul{
+    display: none;
+    position: relative;
+    margin-top: 250px;   
+}
+.card{
+ /*    width:80%; */
+    margin-left: 80px;
+    margin-top:5px ;
+    font-weight: bold;
+}
+.table{
+   /*  width: 85%; */
+  /*   margin-left: 60px; */
+    background-color: white;
+    margin-left: 50px;
+}
+}
+@media screen and (max-width:1400px){
+    img{
+       width:80px;
+       padding: 0px;
+       margin-left:-40px;
+    }    
+    .card{
+      /*    width: 85%; */
+        margin-left: 150px;
+        margin-top:5px ;
+        font-weight: bold;
+    }
+    .table{
+       /*  width: 85%; */
+    /*     margin-left: 150px; */
+        background-color: white;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:500px){
+    .header-responsive{
+        display: block;
+    }
+img{
+    display: none;
+}    
+ul{
+    display: none;
+    position: relative;
+    margin-top: 250px;   
+}
+.card{
+   /*  width:85%; */
+    margin-left: 60px;
+    margin-top:5px ;
+    font-weight: bold;
+}
+.table{
+   /*  width: 85%; */
+   /*  margin-left: 60px; */
+    background-color: white;
+    margin-left: 50px;
+}
+}
